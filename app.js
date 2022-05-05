@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let width = 10
   let bombAmount = 20
   let squares = []
+  let isGameOver = false
 
   function createBoard () {
     // Get shuffled game array with random bombs
@@ -47,8 +48,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Click on square ations
   function click (square) {
+    if (isGameOver) return
+    if (square.classList.contains('checked') || square.classList.contains('flag')) return
     if (square.classList.contains('bomb')) {
       console.log('Game over')
+    } else {
+      let total = square.getAttribute('data')
+      if (total !== 0) {
+        square.classList.add('checked')
+        square.innerHTML = total
+        return
+      }
+      square.classList.add('checked')
     }
   }
 })
