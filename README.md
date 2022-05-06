@@ -20,4 +20,4 @@ Project is created with:
 To run this project, open this in a new tab: <a href="https://kpilszak.github.io/minesweeper/">https://kpilszak.github.io/minesweeper/</a>
 
 ## Sources
-This project has been created with help from Ania Kubów tutorial <a href="https://www.youtube.com/watch?v=rxdGAKRndz8">Build your own MINESWEEPER game in pure JavaScript, HTML and CSS while learning about RECURSION</a>
+This project has been created with help from Ania Kubów tutorial <a href="https://www.youtube.com/watch?v=rxdGAKRndz8">Build your own MINESWEEPER game in pure JavaScript, HTML and CSS while learning about RECURSION</a> from Youtube.
